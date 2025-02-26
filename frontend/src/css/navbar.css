@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.nav{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.site-title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.nav li{
+    background-color: transparent;
+}
+
+.nav a{
+    color:inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li.active{
+    background-color: #d0bdbd;
+}
+
+.nav li:hover{
+    /* background-color: #777; */
+    color: #777;
+}
+
+.navigation{
+    background: linear-gradient(135deg, #0c1116, #34495e, #2c85ce);
+}
+/* New Nav Bar */
+.nav1{
+    
+  backdrop-filter: blur(1000px); /* Applies blur to the background behind the nodes */
+  opacity: 10;  
+  color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.site-title1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+.nav1 ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: 1.2rem;
+}
+
+.red{
+    color: rgb(155, 75, 75);
+    font-weight: 900;
+}
+.red :hover{
+ color: #90481b;
+}
+
+.nav1 li{
+    background-color: transparent;
+}
+
+.nav1 a{
+    color:inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav1 li.active{
+    background-color: #d0bdbd;
+}
+
+.nav1 li:hover{
+    /* background-color: #777; */
+    color: #2a0808;
+}

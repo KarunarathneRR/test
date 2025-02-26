@@ -1,0 +1,106 @@
+/* Overall container styling */
+.fau {
+  background: linear-gradient(135deg, #0c1116, #34495e, #2c85ce);
+  background-size: cover; /* Ensures the background covers the entire screen */
+  background-position: center;
+  margin: 0;
+  padding: 0px 0px 10px 0px;
+  min-height: 100vh;
+}
+
+/* Name container styling */
+.name-container {
+  background-color: #3748e6;
+  width: 100%;
+  height: 20%; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.name-container2 {
+  background-color: #3748e600;
+  width: 100%;
+  height: 10%; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Back button styling */
+.back-button {
+  background-color: #1827a4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+}
+
+.back-button:hover {
+  background-color: #0c1a70;
+}
+
+/* Card container background styling */
+.card-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(37, 179, 223, 0.8);
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto; /* Horizontally center the container */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #fff;
+  
+}
+
+/* Province card styling */
+.province-card {
+  background-color: rgba(255, 255, 255, 0.281);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.province-card:hover {
+  transform: scale(1.05);
+}
+
+/* Healthy and faulty card styling */
+.card {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.healthy {
+  background-color: #28c3d4;
+  color: #fff;
+}
+
+.faulty {
+  background-color: #e74c3c;
+  color: #fff;
+}

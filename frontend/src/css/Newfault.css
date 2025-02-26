@@ -1,0 +1,67 @@
+.newfault{
+    background: linear-gradient(135deg, #0c1116, #34495e, #2c85ce);
+    background-size: cover; /* Ensures the GIF covers the entire screen */
+    background-position: center; /* Centers the GIF on the page */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.node-details-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Stacks items vertically */
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(5px); /* Applies blur to the background behind the nodes */
+  min-height: 550px;
+  width: auto;
+  padding: 10px;
+  margin: 40px 200px; /* Adds margin to position below the cards */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for better contrast */
+  text-align: center;
+}
+
+.faultbox{
+    position: relative;
+    margin-top: 80px;
+    width: 1000px;
+    height: 40px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.node-details{
+    position: relative;
+    width: 600px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.txt{
+    border-radius: 10px;
+    border: none;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    font-size: 1rem;
+}
+.sub-btn{
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+.sub-btn:hover{
+    cursor: pointer;
+    background-color: #4d4a4a;
+    color: white;
+}
